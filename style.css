@@ -1,0 +1,33 @@
+/* Remove padding and margin */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+
+#id1,
+#id3 {
+    background: red;
+    position: relative;
+}
+
+#id2 {
+    background: blue;
+    position: relative;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
